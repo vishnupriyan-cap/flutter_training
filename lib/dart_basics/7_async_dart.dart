@@ -1,4 +1,4 @@
-// Dart Basics - Future Async Dart
+// Dart Basics - Future Async Dart, Similar to JavaScript Promises
 void main() async {
   print('Start');
 
@@ -7,8 +7,9 @@ void main() async {
   print('End');
 }
 
-Future<void> fetchData() async {
+Future<bool> fetchData() async {
   print('Fetching data...');
-  await Future.delayed(Duration(seconds: 2)); // Simulate delay
+  await Future.delayed(Duration(seconds: 2)); // Simulate delay, HTTP CALL
   print('Data fetched!');
+  return true;
 }

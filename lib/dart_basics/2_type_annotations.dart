@@ -1,12 +1,13 @@
 //Dart Basics - Type Annotations
 void main() {
   // Explicit type annotations
-  int number = 42;
+  int? number = 42;
+  // number = null; // Error: non-nullable variable cannot be null
   String text = 'Hello';
   bool flag = true;
   double decimal = 3.14;
 
-  print('Number: $number, Text: $text, Flag: $flag, Decimal: $decimal');
+  print('Number: ${number + 5}, Text: $text, Flag: $flag, Decimal: $decimal');
 
   // Nullable types (null safety)
   int? nullableNumber = null;

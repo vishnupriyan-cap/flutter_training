@@ -2,10 +2,15 @@
 void main() {
   //var -> type inference
   var age = 25; // int
+  var name1 = 'Dart'; // String
+  name1 = 'Flutter'; // Can change value but not type
+  // name = 123; // Error: type mismatch
   print('Age: $age');
+  print('Name: $name1');
 
   //const -> compile time constant
   const pi = 3.14;
+  //pi = 3.14159; // Error: cannot change const value
   print('Pi: $pi');
 
   //final -> runtime constant
@@ -13,7 +18,8 @@ void main() {
   print('Now: $now');
 
   //String
-  String name = 'Dart';
+  final String name = 'Dart';
+  // name = 'Flutter'; // Can change value
   print('Name: $name');
 
   //bool
