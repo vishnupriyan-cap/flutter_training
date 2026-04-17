@@ -16,33 +16,6 @@ This project uses parallel branches to track progress across different training 
 | `session-2-complete` | Completed | Session 2 Complete with all features |
 | `session-3` | In Progress | Advanced Flutter Concepts (Starting Next Session) |
 
-### Session Details
-
-#### Session 1: Introduction to Flutter and First App
-- **Topics Covered:**
-  - Flutter fundamentals and architecture
-  - Creating your first Flutter application
-  - Widget basics and stateful/stateless widgets
-- **Branch:** `session-1`
-
-#### Session 2: Dart Basics and Cap ID Template
-- **Part 1 (session-2):**
-  - Dart language fundamentals
-  - Variables, types, and functions
-  - Cap ID template structure
-- **Part 2 (session-2-complete):**
-  - Complete implementation of Cap ID features
-  - Integration and testing
-- **Branches:** `session-2`, `session-2-complete`
-
-#### Session 3: Advanced Flutter Concepts
-- **Status:** Ready to start in the next training session
-- **Branch:** `session-3`
-- **Estimated Topics:**
-  - State management and provider pattern
-  - Navigation and routing
-  - API integration and data persistence
-
 ## Getting Started
 
 ### Prerequisites
