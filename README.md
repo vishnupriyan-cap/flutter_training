@@ -69,9 +69,19 @@ git checkout session-3    # For Session 3
 
 ## Resources
 
+### Documentation
 - [Flutter Documentation](https://flutter.dev/docs)
 - [Dart Language Tour](https://dart.dev/guides/language/language-tour)
 - [Flutter Cookbook](https://flutter.dev/docs/cookbook)
+
+### Design System
+- [Material Design 3](https://m3.material.io/)
+- [Material Design 3 for Flutter](https://m3.material.io/develop/flutter)
+
+### Video Tutorials
+- [Flutter Crash Course #1 - What is Flutter?](https://www.youtube.com/watch?v=j_rCDc_X-k8&list=PL4cUxeGkcC9giLVXCHSQmWqlHc9BLXdVx)
+- [Flutter Tutorial for Beginners #1 - Intro & Setup](https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ)
+- [Dart Crash Course #1 - What is Dart?](https://www.youtube.com/watch?v=QGqMJzywasg&list=PL4cUxeGkcC9iVGY3ppchN9kIauln8IiEh)
 
 ## License
 
