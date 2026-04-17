@@ -28,7 +28,7 @@ This project uses parallel branches to track progress across different training 
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/vishnupriyan-cap/flutter_training
 cd flutter_training
 
 # Install dependencies
