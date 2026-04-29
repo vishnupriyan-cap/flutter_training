@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_training/cubit/news_cubit.dart';
 import 'screens/dashabord.dart';
 
 void main() {
@@ -14,7 +16,10 @@ class MyApp extends StatelessWidget {
       title: "Flutter Training",
       themeMode: ThemeMode.dark,
       theme: ThemeData(primarySwatch: Colors.grey),
-      home: Dashabord(),
+      home: BlocProvider(
+        create: (context) => NewsCubit()..getTopNewsHealines(),
+        child: Dashabord(),
+      ),
     );
   }
 }
